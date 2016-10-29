@@ -26,13 +26,13 @@ header {
 	margin: 0px 0px 0px 0px;
 	background: #fff;
 	border-bottom: solid #69918E 5px;
+	overflow: hidden;
 }
 
 #wrapper {
 	min-height: 100%;
 	margin: 0 auto -125px;
 	width: 1040px;
-	
 }
 
 p{
@@ -56,7 +56,7 @@ h1{
 	text-align: left;
 	text-transform: uppercase;
 	font-size: 38px;
-	padding: 20px 20px 20px 20px;
+	padding: 0px 0px 0px 20px;
 	color: #fff;
 }
 
@@ -194,4 +194,88 @@ footer, .push {
 	border-top: solid #69918E 5px;
 }
 
+/*-------------------------Media Queries--------------------------*/
 
+/* Rules for screen widths at 980px or lower */
+@media screen and (max-width: 980px) {
+	header {
+		width: 750px;
+		height: 80px;
+	}
+
+	body {
+		column-width: 100%;
+	}
+
+	.master-header {
+		width: 100%;
+		height: 129px;
+		margin: 0px 0px 0px -10px;
+		background: #fff;
+		border: none;
+		margin-top: -10px;
+		border-bottom: solid #69918E 5px;
+	}
+
+	#wrapper {
+		min-height: 100%;
+		margin: 0 auto;
+		width: 800px;
+	}
+
+	h1{
+		font-size: 34px;
+		padding: 0px 20px 0px 20px;
+	}
+
+	article {
+		overflow: auto;
+		display: block;
+		width: 415px;
+		padding: 20px;
+		margin: 35px 20px 20px 20px;
+	}
+
+	aside {
+		display: block;
+		width: 200px;
+		padding: 20px;
+		margin: 35px 0px 25px 10px;
+		text-align: center;
+	}
+
+	footer {
+		margin-left: -10px;
+	}
+
+	.portfolio-image {
+		width: 350px;
+		height: 350px;
+		padding: 15px 15px;
+	}
+
+	h3 {
+		width: 330px;
+		padding: 10px;
+		top: 250px;
+		left: 15px;
+	}
+
+}
+
+/* Rules for screen widths at 768px or lower */
+@media screen and (max-width: 768px) {
+
+	body {
+		column-width: 100%;
+	}
+
+	#wrapper {
+		width: 600px
+	}
+}
+
+/* Rules for screen widths at 640px or lower */
+@media screen and (max-width: 640px) {
+
+}
