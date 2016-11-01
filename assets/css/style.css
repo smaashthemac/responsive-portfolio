@@ -79,6 +79,8 @@ h6 {
 	font-size: 14px;
 }
 
+/* Links & Hovers */
+
 a:link {
 	font-family: 'Montserrat', serif;
 	color: #444;
@@ -150,6 +152,8 @@ aside {
 	text-align: center;
 }
 
+/* Form css */
+
 input,
 textarea {
 	width: 97%;
@@ -164,6 +168,8 @@ input[type=submit] {
 	font-size: 14px;
 	padding: 5px;
 }
+
+/* Portfolio images css */
 
 .image-grid {
 	float: left;
@@ -277,6 +283,7 @@ footer, .push {
 }
 
 /* Rules for screen widths at 768px or lower */
+
 @media screen and (max-width: 768px) {
 
 	header {
@@ -356,6 +363,7 @@ footer, .push {
 }
 
 /* Rules for screen widths at 640px or lower */
+
 @media screen and (max-width: 640px) {
 
 	header {
